@@ -104,3 +104,16 @@ body{
 .register-link p a:hover{
      text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        .wrapper{
+            width: 250px;
+        
+        }
+    }
+    .wrapper h1{
+        font-size: 24px;
+    
+    }
+  }
